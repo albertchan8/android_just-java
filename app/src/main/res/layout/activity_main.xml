@@ -24,12 +24,8 @@
             android:inputType="textCapWords"/>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="Menu"
-            android:textAllCaps="true" />
+            style="@style/HeaderTextStyle"
+            android:text="Menu" />
 
         <TextView
             android:id="@+id/coffee_price_menu"
@@ -56,18 +52,13 @@
             android:textColor="@android:color/black" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="Toppings"
-            android:textAllCaps="true" />
+            style="@style/HeaderTextStyle"
+            android:text="Toppings" />
 
         <CheckBox
             android:id="@+id/whipped_cream_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
             android:paddingLeft="8dp"
             android:text="Whipped Cream"
             android:textSize="16sp"/>
@@ -76,16 +67,13 @@
             android:id="@+id/chocolate_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
             android:paddingLeft="8dp"
             android:text="Chocolate"
             android:textSize="16sp"/>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Quantity"
-            android:textAllCaps="true" />
+            style="@style/HeaderTextStyle"
+            android:text="Quantity" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -120,17 +108,13 @@
         </LinearLayout>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="Price"
-            android:textAllCaps="true" />
+            style="@style/HeaderTextStyle"
+            android:text="Price" />
 
         <TextView
             android:id="@+id/price_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="$0"
             android:textSize="16sp"
             android:textColor="@android:color/black" />
@@ -139,7 +123,7 @@
             android:onClick="submitOrder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:text="ORDER"/>
 
     </LinearLayout>
